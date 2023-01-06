@@ -1,0 +1,148 @@
+body {
+  font-family: "Moon Dance", cursive;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  background: url(https://share.america.gov/wp-content/uploads/2018/06/international-waters-freedom-of-navigation-DY8ERP.jpg);
+}
+
+/* header start */
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.headerleft {
+  color: red;
+  text-shadow: 0 0 10px red;
+  cursor: pointer;
+}
+
+.hl:hover {
+  color: green;
+  font-size: 20px;
+}
+
+.headerright {
+  border: solid 1px green;
+  border-radius: 150px;
+  width: 140px;
+  height: 140px;
+}
+
+/* header end */
+
+/* navbar start */
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: white;
+  color: black;
+}
+.p:hover {
+  text-shadow: 0 0 10px red;
+  cursor: pointer;
+  color: green;
+  font-size: 15px;
+}
+.smoth-scroll {
+  color: black;
+  text-decoration: none;
+}
+/* navbar end */
+
+/* content start */
+.content {
+  font-size: 14px;
+}
+.contentl {
+  margin-left: 10px;
+}
+.contentr {
+  margin-left: 10px;
+}
+
+/* content end */
+
+/* features start */
+
+.features {
+  width: 100%;
+}
+.f {
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.f:hover {
+  color: green;
+  font-size: 22px;
+}
+.fe {
+  width: 100px;
+  height: 100px;
+}
+
+.fea {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.fea:hover {
+  color: green;
+  font-size: 22px;
+}
+.fes {
+  width: 100px;
+  height: 100px;
+}
+.faa {
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+}
+.faa:hover {
+  color: green;
+  font-size: 22px;
+}
+.fet {
+  width: 120px;
+  height: 100px;
+}
+.xoq {
+  text-align: center;
+}
+.xoq:hover {
+  text-align: center;
+  color: rgb(255, 53, 3);
+  font-size: 20px;
+  text-shadow: 0 0 10px blue;
+}
+.xo {
+  text-align: center;
+}
+/* features end */
+
+/* footer start */
+
+.footer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.fr {
+  width: 60px;
+  height: 60px;
+}
+
+/* footer end */
